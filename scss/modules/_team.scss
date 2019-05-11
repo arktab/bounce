@@ -1,0 +1,35 @@
+.team {
+  .container {}
+  .team__slider{
+    margin: 50px 2.5% 0;
+    .slider__item{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .slider__img{
+        width: 25%;
+        margin-left: 2.5%;
+      }
+      .slider__text{
+        width: 40%;
+        text-align: right;
+        .h4{
+          font-family: $fonth;
+        }
+        .info{
+          font-family: $fonth;
+          text-transform: uppercase;
+          font-style: italic;
+          margin-bottom: 30px;
+        }
+        .text{
+          font-family: $font;
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.testimonials {
+  background: #f3f3f3;
+
+  .testimonials__slider {
+    margin: 50px 2.5% 0;
+
+    .slider {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      background: #fff;
+      padding: 60px;
+
+      .slider__img {
+        width: 15%;
+        border-radius: 50%;
+      }
+
+      .slider__text {
+        width: 80%;
+        padding: 0 0 0 5%;
+
+        .h5 {
+          margin-top: 20px;
+          font-family: $font;
+          text-transform: uppercase;
+          color: #19bd9a;
+        }
+
+        .about {
+          text-transform: uppercase;
+          font-style: italic;
+          font-family: $fonth;
+        }
+      }
+    }
+  }
+}

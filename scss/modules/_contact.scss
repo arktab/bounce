@@ -1,0 +1,33 @@
+.contact {
+  background: url("../images/contact.jpg") no-repeat center center;
+  background-size: cover;
+
+  .head-text {
+    .head-text__line {
+      color: #fff;
+    }
+  }
+
+  .button__wrapp {
+    padding-bottom: 50px;
+  }
+
+  .contact__btn {
+    font-family: $font;
+    text-align: center;
+    background: transparent;
+    color: #fff;
+    line-height: 40px;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    padding: 0 20px;
+    transition: all .4s;
+    &:focus{
+      outline: none;
+    }
+    &:hover{
+      color: #000;
+      background: #fff;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.footer {
+	background: #fff;
+
+	#map {
+		margin: 50px 0;
+		width: 99vw;
+		height: 50vh;
+	}
+
+	.wrapper {
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+
+		.logo {
+			// font-family: $fonth;
+			// font-weight: 700;
+			// text-transform: uppercase;
+			// font-size: 2rem;
+			// margin-bottom: 20px;
+			svg{
+				 width: 35%;
+				 fill: black;
+				 padding: 0;
+				 margin: 0;
+				 height: 65px;
+			}
+		}
+
+		.copyrights {
+			font-family: $font;
+			font-size: 0.7rem;
+			margin-bottom: 20px;
+		}
+
+		.social__items {
+				margin-bottom: 100px;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				justify-content: center;
+			i {
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				color: #fff;
+				background: #000;
+				border-radius: 50%;
+				width: 30px;
+				height: 30px;
+				padding: 8px;
+				margin: 0 5px;
+				text-align: center;
+				&:hover{
+						animation: bounce 1s linear infinite;
+				}
+			}
+			[class*='facebook']{
+					background: $faceboook;
+			}
+			[class*='twitter']{
+					background: $Twitter;
+			}
+			[class*='linkedin']{
+					background: $LinkedIn;
+			}
+			[class*='instagram']{
+					background: $Instagram;
+			}
+			[class*='vimeo']{
+					background: #86c9ef;
+			}
+
+
+		}
+	}
+}
