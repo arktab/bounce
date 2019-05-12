@@ -15,9 +15,11 @@
       }
       .slider__text{
         width: 40%;
+        padding-right: 5px;
         text-align: right;
         .h4{
           font-family: $fonth;
+          color: $hedline;
         }
         .info{
           font-family: $fonth;
@@ -27,7 +29,7 @@
         }
         .text{
           font-family: $font;
-          font-size: .8rem;
+          font-size: .8rem;    
         }
       }
     }

@@ -1,5 +1,6 @@
 .contact {
   background: url("../images/contact.jpg") no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
 
   .head-text {
@@ -14,17 +15,16 @@
 
   .contact__btn {
     font-family: $font;
+    text-decoration: none;
     text-align: center;
     background: transparent;
     color: #fff;
     line-height: 40px;
     border: 1px solid #fff;
     border-radius: 2rem;
-    padding: 0 20px;
+    padding: 5px 20px;
     transition: all .4s;
-    &:focus{
-      outline: none;
-    }
+
     &:hover{
       color: #000;
       background: #fff;

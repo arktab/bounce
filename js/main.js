@@ -206,7 +206,9 @@ function initMap() {
 			 infinite: true,
       slidesToShow: 1,
       dots: true,
-      arrows: false
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 4000
     });
 
     //isotope grid---------------------------
@@ -214,7 +216,8 @@ function initMap() {
       itemSelector: '.blocks__img',
       percentPosition: true,
       masonry: {
-        gutter: 10
+        columnWidth: '.size',
+        gutter: 7
       }
     });
     $('.filters').on('click', 'li', function() {
@@ -223,6 +226,10 @@ function initMap() {
         filter: val
       })
     });
+    $('.button__wrapp').click(function() {
+			$('.button__wrapp').removeClass('active__btn');
+			$(this).addClass('active__btn');
+		});
 
   });
 })(jQuery);

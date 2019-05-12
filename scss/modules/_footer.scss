@@ -16,11 +16,6 @@
 		text-align: center;
 
 		.logo {
-			// font-family: $fonth;
-			// font-weight: 700;
-			// text-transform: uppercase;
-			// font-size: 2rem;
-			// margin-bottom: 20px;
 			svg{
 				 width: 35%;
 				 fill: black;
@@ -42,6 +37,9 @@
 				display: -ms-flex;
 				display: flex;
 				justify-content: center;
+				.social__link{
+					text-decoration: none;
+				}
 			i {
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -51,9 +49,9 @@
 				border-radius: 50%;
 				width: 30px;
 				height: 30px;
-				padding: 8px;
+				padding: 0 0 0 8px;
 				margin: 0 5px;
-				text-align: center;
+				line-height: 30px;
 				&:hover{
 						animation: bounce 1s linear infinite;
 				}

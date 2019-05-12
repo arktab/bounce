@@ -21,6 +21,7 @@ body, html {
 	min-height: 100%;
 	width: 100%;
 	overflow-x:  hidden;
+	color: $text-color;
 }
 
 .clear::after, .clear::before {
@@ -36,6 +37,7 @@ body, html {
 }
 .container{
 	position: relative;
+	min-width: 992px;
 }
 .text{
 	font-family: $font;
@@ -47,10 +49,13 @@ body, html {
 		font-family: $fonth;
 		font-weight: 300;
 		text-transform: uppercase;
+		color: $hedline;
 	}
 	&__main{
+		color: #81868e;
 		font-family: $font;
 		line-height: 1.5rem;
+		color: $text-color;
 	}
 }
 .slick-dots{
@@ -94,6 +99,10 @@ body, html {
 }
 .active{
 		border: 1px solid #fff;
+}
+
+.active__btn:before{
+    background: #19bd9a;
 }
 
 @keyframes bounce {
